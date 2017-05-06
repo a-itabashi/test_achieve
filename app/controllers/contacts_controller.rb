@@ -12,6 +12,7 @@ class ContactsController < ApplicationController
       if @contact.save
       # 一覧画面へ遷移して"お問い合わせを送信しました！"とメッセージを表示します。
       redirect_to root_path, notice: "お問い合わせを送信しました！"
+      NoticeMailer.sendmail_contact(@contact).deliver
       else
       # 入力フォームを再描画します。
       render 'new'
