@@ -1,0 +1,13 @@
+current directory: /Users/itabashi_planet/Desktop/workspace/achieve/vendor/bundle/gems/json-1.8.6/ext/json
+/Users/itabashi_planet/.rbenv/versions/2.3.0/bin/ruby -r ./siteconf20170506-66832-1wqt128.rb extconf.rb
+creating Makefile
+
+current directory: /Users/itabashi_planet/Desktop/workspace/achieve/vendor/bundle/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/itabashi_planet/Desktop/workspace/achieve/vendor/bundle/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/itabashi_planet/Desktop/workspace/achieve/vendor/bundle/gems/json-1.8.6/ext/json
+make "DESTDIR=" install
